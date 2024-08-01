@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4b6cb7;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+.pricing-banner {
+    background: url('Image/create\ a\ banner\ for\ my\ website\ page\ price\ \ .jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.pricing-banner h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.pricing-banner p {
+    font-size: 1.5em;
+    margin: 20px 0 0;
+}
+
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.price-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(100% / 2 - 40px);
+    max-width: 400px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.price-card h2 {
+    font-size: 1.8em;
+    color: #4b6cb7;
+}
+
+.price-card .price {
+    font-size: 2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.price-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-card ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #666;
+}
+
+.price-card button {
+    padding: 10px 20px;
+    background-color: #4b6cb7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.price-card button:hover {
+    background-color: #ffeb3b;
+    color: #333;
+}
+
+.hidden-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: none; /* Set to 'block' if you want it visible */
+}
+
+.hidden-footer .social-links {
+    margin-bottom: 10px;
+}
+
+.hidden-footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.hidden-footer .social-links a:hover {
+    color: #ffeb3b;
+}
+
+
+
